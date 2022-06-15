@@ -23,24 +23,24 @@
 .proj-box1 {
    border-width: 3px 4px 3px 5px;
    border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
-   transform: rotate(2deg);
+   transform: rotate(4deg);
 }
 .proj-box2 {
    /* width: 350px; */
    border-width: 3px 3px 5px 5px;
    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-   transform: rotate(-2deg);
+   transform: rotate(-4deg);
 }
 
 .proj-box3 {
    border-width: 5px 3px 3px 5px;
    border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
-   transform: rotate(2deg);
+   transform: rotate(4deg);
 }
 
 .oddboxinner {
    margin: 15px;
-   transform: rotate(-2deg);
+   transform: rotate(-4deg);
 }
 .evenboxinner {
    transform: rotate(2deg);

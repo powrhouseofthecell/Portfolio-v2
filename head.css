@@ -10,7 +10,7 @@ body {
 
 .anim-text-banner {
    font-size: 4rem;
-   /* height: 100vh; */
+   height: 80vh;
    /* font-size: 7.5vw; */
    font-weight: bold;
    white-space: nowrap;
@@ -97,6 +97,7 @@ body {
    .anim-text-banner {
       font-size: 8vw;
       padding: 9vh 30px;
+      height: 30vh;
    }
    .fullstack {
       font-size: 1.3rem;
@@ -124,4 +125,10 @@ body {
       letter-spacing: 1.1px;
       line-height: 1.3rem;
    }
+}
+
+.back-up {
+   position: relative;
+   left: 15%;
+   top: 10vh;
 }
