@@ -19,7 +19,7 @@ body {
    font-weight: 400;
    font-family: 'K2D', sans-serif;
    text-transform: lowercase;
-   background-color: #fef7dc;
+   background-color: #809a6f;
 }
 .anim-text-banner > span {
    position: absolute;
@@ -75,7 +75,7 @@ body {
 
 /* ! About section */
 .about {
-   background-color: #e6ddc6;
+   background-color: #a25b5b;
    padding-top: 3rem;
    padding-bottom: 3rem;
 }
