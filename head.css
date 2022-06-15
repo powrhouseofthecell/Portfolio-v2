@@ -10,7 +10,7 @@ body {
 
 .anim-text-banner {
    font-size: 4rem;
-   height: 100vh;
+   /* height: 100vh; */
    /* font-size: 7.5vw; */
    font-weight: bold;
    white-space: nowrap;
