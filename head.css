@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+   font-family: 'Noto Sans Mono', monospace !important;
+}
+
+.anim-text-banner {
+   font-size: 7.5vw;
+   font-weight: bold;
+   white-space: nowrap;
+   padding: 9vh 50px;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-family: 'K2D', sans-serif;
+   text-transform: lowercase;
+}
+.anim-text-banner > span {
+   position: absolute;
+   display: inline-block;
+   clip: rect(0px, 0px, 300px, 0px);
+   color: #575757;
+}
+
+.anim-text-parent {
+   position: relative;
+   color: #ff9933;
+}
+.anim-text-parent > .v-bar {
+   position: absolute;
+   width: 0px;
+   height: 1vw;
+   background: #ff9933;
+   display: inline-block;
+   top: 0px;
+   left: -20px;
+   transform: translate(-100%, 550%);
+}
+.anim-text-parent > .anim-text {
+   overflow: hidden;
+   white-space: nowrap;
+   top: 0;
+   left: 0;
+   position: absolute;
+   transition: width 1s ease;
+   clip: rect(0px, 0px, 300px, 0px);
+}
+.hero > .nav {
+   margin-left: 82%;
+   list-style: none;
+   text-decoration: none;
+   position: absolute;
+   top: 20%;
+   text-transform: lowercase;
+   font-family: 'K2D', sans-serif;
+}
+.ul > li {
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   font-family: 'Noto Sans Mono', monospace !important;
+}
+
+.ul > li > a {
+   text-decoration: none;
+}
+.fullstack {
+   font-size: 3rem;
+}
+
+/* ! About section */
+
+.about > p {
+   width: 85vw;
+   margin: 0 auto;
+   letter-spacing: 1px;
+}
+
+/* ! Media for hero */
+/* 0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + : Big desktop */
+
+@media screen and (max-width: 600px) {
+   .anim-text-banner {
+      font-size: 8vw;
+      padding: 9vh 30px;
+   }
+   .fullstack {
+      font-size: 1.3rem;
+   }
+   .anim-text-parent > .v-bar {
+      transform: translate(-100%, 600%);
+   }
+   .hero > .nav {
+      margin-left: 80%;
+      /* list-style: none;
+      text-decoration: none;
+      position: absolute; */
+      top: 10%;
+   }
+   .ul > li {
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+   }
+}
