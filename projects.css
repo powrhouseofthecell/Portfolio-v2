@@ -51,6 +51,18 @@
    border: 1px solid #222;
    box-shadow: 3px 3px 0 #222;
 }
+
+.work-btn {
+   border: 2px solid black;
+   padding-top: 1.5vh;
+   padding-bottom: 1.5vh;
+   padding-left: 3.5vw;
+   padding-right: 3.5vw;
+}
+.more-work-btn {
+   display: flex;
+   justify-content: center;
+}
 @media screen and (max-width: 600px) {
    .proj-box {
       margin: 25px;

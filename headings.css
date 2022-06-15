@@ -20,6 +20,8 @@ h1 {
    font-size: 40px;
    line-height: 1.2;
    margin: 0;
+   letter-spacing: 4px;
+   font-weight: 400;
 }
 .revealUp {
    opacity: 0;

@@ -15,9 +15,9 @@ a {
    margin-bottom: 0.5rem;
    display: inline-flex;
 }
-a:hover {
+/* a:hover {
    border-bottom: 1px solid var(--dark);
-}
+} */
 ul {
    list-style-type: none;
    padding: 0;
