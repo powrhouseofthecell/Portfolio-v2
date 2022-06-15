@@ -104,4 +104,9 @@ body {
       font-size: 0.8rem;
       margin-bottom: 0.5rem;
    }
+   .about > p {
+      font-size: 14px;
+      letter-spacing: 1.1px;
+      line-height: 1.3rem;
+   }
 }
