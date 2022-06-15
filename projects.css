@@ -37,7 +37,8 @@
 }
 
 .grid-column:nth-of-type(2) {
-   background-image: url('https://i.postimg.cc/13RwRzXM/a.jpg');
+   /* background-image: url('https://i.postimg.cc/13RwRzXM/a.jpg'); */
+   background-color: #fff;
    background-position: center top;
    background-size: cover;
    filter: sepia(100%);
@@ -50,7 +51,8 @@
 }
 
 .grid-column:nth-of-type(3) {
-   background-image: url('https://i.postimg.cc/26WB9b9j/b.jpg');
+   /* background-image: url('https://i.postimg.cc/26WB9b9j/b.jpg'); */
+   background-color: #777;
    background-position: center top;
    background-size: cover;
    filter: sepia(100%);
@@ -63,7 +65,8 @@
 }
 
 .grid-column:nth-of-type(4) {
-   background-image: url('https://i.postimg.cc/0NFwCdfH/c.jpg');
+   /* background-image: url('https://i.postimg.cc/0NFwCdfH/c.jpg'); */
+   background-color: rgb(202, 200, 45);
    background-position: center top;
    background-size: cover;
    filter: sepia(100%);
@@ -76,7 +79,7 @@
 }
 
 .grid-column:nth-of-type(5) {
-   background-image: url('https://i.postimg.cc/vZP94d6y/d.jpg');
+   /* background-image: url('https://i.postimg.cc/vZP94d6y/d.jpg'); */
    background-position: center top;
    background-size: cover;
    filter: sepia(100%);
