@@ -4,6 +4,18 @@ body {
    box-sizing: border-box;
 }
 
+.fancy-link-hero {
+   background-image: linear-gradient(90deg, #f7ccac, #826f66);
+   background-size: 0% 3px;
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   transition: background-size 300ms ease;
+   text-decoration: none;
+}
+.fancy-link-hero:hover {
+   background-size: 100% 3px;
+}
+
 .anim-text-banner {
    font-size: 4rem;
    height: 80vh;

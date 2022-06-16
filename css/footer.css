@@ -3,7 +3,19 @@ h3 {
    font-weight: 300;
    text-align: center;
 }
-a {
+.fancy-link-footer {
+   background-image: linear-gradient(90deg, #f7ccac, #3a3845);
+   background-size: 0% 3px;
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   transition: background-size 300ms ease;
+   text-decoration: none;
+}
+.fancy-link-footer:hover {
+   background-size: 100% 3px;
+}
+
+footer > a {
    text-decoration: none;
    font-weight: 500;
    transition: 0.3s ease-in;
