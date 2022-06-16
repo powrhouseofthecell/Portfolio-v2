@@ -14,7 +14,7 @@ body {
    text-transform: uppercase;
    font-weight: 400;
    text-transform: lowercase;
-   background-color: #809a6f;
+   background-color: #3a3845;
 }
 .anim-text-banner > span {
    position: absolute;
@@ -68,7 +68,7 @@ body {
 
 /* ! About section */
 .about {
-   background-color: #a25b5b;
+   background-color: #f7ccac;
    padding-top: 3rem;
    padding-bottom: 3rem;
 }
