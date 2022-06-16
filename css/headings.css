@@ -7,7 +7,6 @@
    overflow: hidden;
    display: flex;
    justify-content: center;
-   /* align-items: center; */
 }
 .bg1 {
    background-color: #ccc;
@@ -16,7 +15,6 @@
    background-color: #333;
 }
 h1 {
-   font-family: 'K2D', sans-serif;
    font-size: 40px;
    line-height: 1.2;
    margin: 0;

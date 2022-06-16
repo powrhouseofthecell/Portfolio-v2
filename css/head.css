@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
-
 body {
-   font-family: 'Noto Sans Mono', monospace !important;
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -17,7 +13,6 @@ body {
    padding: 9vh 50px;
    text-transform: uppercase;
    font-weight: 400;
-   font-family: 'K2D', sans-serif;
    text-transform: lowercase;
    background-color: #809a6f;
 }
@@ -58,12 +53,10 @@ body {
    position: absolute;
    top: 10%;
    text-transform: lowercase;
-   font-family: 'K2D', sans-serif;
 }
 .ul > li {
    font-size: 1.5rem;
    margin-bottom: 2rem;
-   font-family: 'Noto Sans Mono', monospace !important;
 }
 
 .ul > li > a {
@@ -107,9 +100,6 @@ body {
    }
    .hero > .nav {
       margin-left: 80%;
-      /* list-style: none;
-      text-decoration: none;
-      position: absolute; */
       top: 10%;
    }
    .ul > li {
