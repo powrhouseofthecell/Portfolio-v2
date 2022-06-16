@@ -14,6 +14,13 @@
       <title>Zuhaib | Developer</title>
    </head>
    <body>
+      <div id="loading">
+         <img
+            id="loading-image"
+            src="https://img.icons8.com/emoji/72/bullseye.png"
+            alt="Loading..."
+         />
+      </div>
       <!-- ! Head Start -->
       <div id="top" class="hero">
          <div class="anim-text-banner">
@@ -23,8 +30,6 @@
             <br />
             <span class="anim-text">A Developer</span>
             <br />
-            <!-- <span class="anim-text fullstack">Full Stack Developer</span> -->
-            <!-- <br /> -->
 
             <div class="anim-text-parent">
                <span class="anim-text">JavaScript.</span>
@@ -33,7 +38,6 @@
                <span class="anim-text">GraphQL.</span>
                <span class="anim-text">MongoDB.</span>
                <span class="anim-text">Python.</span>
-               <!-- 		<span class="anim-text">add new line here</span> -->
                <span class="v-bar"></span>
             </div>
             <br />
@@ -51,12 +55,10 @@
             <li><a class="fancy-link-hero" href="#contact">Contact</a></li>
          </ul>
       </div>
-      <!-- ! Head Start End -->
+      <!-- ! Head End -->
 
       <div id="about" class="about">
-         <!-- <div class="section bg1"> -->
          <h1 class="revealUp center">About</h1>
-         <!-- </div> -->
          <p class="revealUp">
             I am currently pursuing B.Tech in Computer Science and Engineering
             from Islamic University of Science and Technology located in Jammu
@@ -190,32 +192,6 @@
                            </div>
                         </div>
 
-                        <!-- <div class="layout_item w-25">
-                  <nav class="c-nav-tool">
-                     <h4 class="c-nav-tool_title">Menu</h4>
-                     <ul class="c-nav-tool_list">
-                        <li>
-                           <a href="/collections/all" class="c-link"
-                              >Shop All</a
-                           >
-                        </li>
-
-                        <li>
-                           <a href="/pages/about-us" class="c-link">About Us</a>
-                        </li>
-
-                        <li>
-                           <a href="/blogs/community" class="c-link"
-                              >Community</a
-                           >
-                        </li>
-                        <li>
-                           <a href="#" class="c-link">Vibes</a>
-                        </li>
-                     </ul>
-                  </nav>
-               </div> -->
-
                         <div class="layout_item w-25">
                            <nav class="c-nav-tool">
                               <h4 class="c-nav-tool_title">
@@ -266,12 +242,6 @@
                                        >Mail</a
                                     >
                                  </li>
-
-                                 <!-- <li class="c-nav-tool_item">
-                                    <a href="/account/login" class="c-link">
-                                       Login
-                                    </a>
-                                 </li> -->
                               </ul>
                            </nav>
                         </div>
@@ -356,9 +326,12 @@
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 
-      <!-- https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js -->
-
       <script src="./scripts/heading.js"></script>
       <script src="./scripts/gsap.js"></script>
+      <script>
+         $(window).on('load', function () {
+            $('#loading').hide();
+         });
+      </script>
    </body>
 </html>
