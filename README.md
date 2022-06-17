@@ -12,7 +12,7 @@
 
 👤 **Zuhaib**
 
--  Website: zuhaib.live
+-  Website: [zuhaib.live](https://zuhaib.live)
 -  Github: [@powrhouseofthecell](https://github.com/powrhouseofthecell)
 
 ---
