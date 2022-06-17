@@ -10,6 +10,9 @@ a {
 
 .logo {
    width: 4vw;
+   position: absolute;
+   left: 45%;
+   top: 5%;
 }
 
 @media screen and (max-width: 600px) {
