@@ -14,7 +14,8 @@
 .bg2 {
    background-color: #333;
 }
-h1 {
+.about > h2,
+.projects > h2 {
    font-size: 40px;
    line-height: 1.2;
    margin: 0;
