@@ -81,6 +81,7 @@ input:focus {
 input::placeholder {
    color: var(--dark);
 }
+
 @media (min-width: 675px) {
    .layout {
       display: flex;
