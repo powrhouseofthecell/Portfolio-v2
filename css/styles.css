@@ -11,3 +11,9 @@ a {
 .logo {
    width: 4vw;
 }
+
+@media screen and (max-width: 600px) {
+   .logo {
+      width: 10vw;
+   }
+}
