@@ -80,6 +80,8 @@ body {
 
 /* ! About section */
 .about {
+   background-image: url('../assets/wave1.svg');
+   background-repeat: no-repeat;
    background-color: #f7ccac;
    padding-top: 3rem;
    padding-bottom: 3rem;

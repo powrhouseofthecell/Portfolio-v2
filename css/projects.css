@@ -1,4 +1,6 @@
 .projects {
+   background-image: url('../assets/wave2.svg');
+   background-repeat: no-repeat;
    background-color: #c69b7b;
    padding-top: 3rem;
    padding-bottom: 3rem;
