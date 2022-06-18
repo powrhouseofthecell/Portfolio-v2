@@ -32,6 +32,11 @@ a {
    animation: float 4.5s ease-in-out infinite;
 }
 
+.heart {
+   display: inline-block;
+   animation: float 1.5s ease-in-out infinite;
+}
+
 @media screen and (max-width: 600px) {
    .logo {
       width: 10vw;
