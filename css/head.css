@@ -86,6 +86,11 @@ body {
    padding-top: 3rem;
    padding-bottom: 3rem;
 }
+.about-text {
+   padding-top: 5rem;
+   width: 90vw;
+   margin: 0 auto;
+}
 
 .about > p {
    width: 85vw;
