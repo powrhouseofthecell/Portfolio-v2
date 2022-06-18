@@ -17,7 +17,7 @@ a {
       transform: translatey(0px);
    }
    50% {
-      transform: translatey(-10px);
+      transform: translatey(-20px);
    }
    100% {
       transform: translatey(0px);
@@ -28,8 +28,8 @@ a {
    width: 4vw;
    position: absolute;
    left: 45%;
-   top: 3%;
-   animation: float 5s ease-in-out infinite;
+   top: 4%;
+   animation: float 4.5s ease-in-out infinite;
 }
 
 @media screen and (max-width: 600px) {
