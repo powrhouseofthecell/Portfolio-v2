@@ -74,6 +74,10 @@
 .fancy-link-project:hover {
    background-size: 100% 100px;
 }
+.work-btn {
+   font-weight: 600;
+   color: #85586f;
+}
 
 @media screen and (max-width: 600px) {
    .proj-box {
