@@ -18,7 +18,7 @@ body {
 
 .anim-text-banner {
    font-size: 4rem;
-   height: 80%;
+   height: 90%;
    /* font-size: 7.5vw; */
    font-weight: bold;
    white-space: nowrap;
@@ -100,9 +100,21 @@ body {
 
 @media screen and (max-width: 600px) {
    .anim-text-banner {
+      font-size: 4rem;
+      height: 90%;
+      /* font-size: 7.5vw; */
+      font-weight: bold;
+      white-space: nowrap;
+      padding: 9vh 10%;
+      text-transform: uppercase;
+      font-weight: 400;
+      text-transform: lowercase;
+      background-color: #3a3845;
+   }
+   .anim-text-banner {
       font-size: 8vw;
       padding: 9vh 30px;
-      height: 30vh;
+      height: 45vh;
    }
    .fullstack {
       font-size: 1.3rem;
