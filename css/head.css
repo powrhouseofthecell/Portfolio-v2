@@ -98,6 +98,17 @@ body {
    letter-spacing: 1px;
 }
 
+@media screen and (min-width: 1000px) {
+   .about-text {
+      padding-top: 13rem;
+      display: flex;
+   }
+
+   .about-text > h2 {
+      display: inline-block;
+      transform: rotate(90deg);
+   }
+}
 /* ! Media for hero */
 /* 0 - 600px: Phone
 600 - 900px: Tablet portrait
