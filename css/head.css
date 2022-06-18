@@ -32,18 +32,18 @@ body {
    position: absolute;
    display: inline-block;
    clip: rect(0px, 0px, 300px, 0px);
-   color: #575757;
+   color: #85586f;
 }
 
 .anim-text-parent {
    position: relative;
-   color: #ff9933;
+   color: #deb6ab;
 }
 .anim-text-parent > .v-bar {
    position: absolute;
    width: 0px;
    height: 1vw;
-   background: #ff9933;
+   background: #deb6ab;
    display: inline-block;
    top: 0px;
    left: -20px;
