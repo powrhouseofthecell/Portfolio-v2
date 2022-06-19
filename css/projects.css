@@ -7,6 +7,20 @@
    padding-top: 10rem;
 }
 
+@media screen and (min-width: 1000px) {
+   .projects {
+      padding-top: 13rem;
+   }
+
+   .projects > h2 {
+      display: inline-block;
+      transform: rotate(90deg);
+      position: absolute;
+      right: 5%;
+      top: 240%;
+   }
+}
+
 .flex1 {
    display: flex;
    justify-content: center;
