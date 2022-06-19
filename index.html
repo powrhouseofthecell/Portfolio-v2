@@ -47,6 +47,7 @@
       <meta name="twitter:image:alt" content="Page image for zuhaib.live" />
 
       <!-- ! SEO -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <link rel="stylesheet" href="./css/headings.css" />
       <link rel="stylesheet" href="./css/projects.css" />
       <link rel="stylesheet" href="./css/footer.css" />
@@ -67,6 +68,13 @@
                   data-aos-duration="1000"
                />
             </div>
+            <!-- <img
+               data-aos="flip-right"
+               data-aos-duration="1000"
+               class="logo"
+               src="./assets/zlogo.png"
+               alt="zuhaib.live logo"
+            /> -->
             <br />
             <span class="anim-text">Hi,</span>
             <br />
@@ -120,7 +128,7 @@
       <div id="projects" class="projects">
          <h2 class="revealUp center">Projects</h2>
          <div class="flex1">
-            <div class="revealUp proj-item">
+            <div data-aos="fade-up" data-aos-duration="1000">
                <div class="proj-box proj-box1">
                   <div class="oddboxinner">
                      <h3>Cmd Line Notes Taking App</h3>
@@ -132,7 +140,7 @@
                   </div>
                </div>
             </div>
-            <div class="revealUp proj-item">
+            <div data-aos="fade-up" data-aos-duration="1000">
                <div class="proj-box proj-box2">
                   <div class="evenboxinner">
                      <h3>Chat App</h3>
@@ -144,7 +152,7 @@
                   </div>
                </div>
             </div>
-            <div class="revealUp proj-item">
+            <div data-aos="fade-up" data-aos-duration="1000">
                <div class="proj-box proj-box3">
                   <div class="oddboxinner">
                      <h3>Task Manager API</h3>
@@ -158,7 +166,7 @@
             </div>
          </div>
          <div class="flex2">
-            <div class="revealUp proj-item">
+            <div data-aos="fade-up" data-aos-duration="1000">
                <div class="proj-box proj-box2">
                   <div class="evenboxinner">
                      <h3>Sorting Visulizer</h3>
@@ -170,7 +178,7 @@
                   </div>
                </div>
             </div>
-            <div class="revealUp proj-item">
+            <div data-aos="fade-up" data-aos-duration="1000">
                <div class="proj-box proj-box1">
                   <div class="oddboxinner">
                      <h3>Mentorship App</h3>
@@ -183,7 +191,7 @@
                   </div>
                </div>
             </div>
-            <div class="revealUp proj-item">
+            <div data-aos="fade-up" data-aos-duration="1000">
                <div class="proj-box proj-box3">
                   <div class="evenboxinner">
                      <h3>Get Yourself A Cup</h3>
@@ -199,7 +207,7 @@
 
          <div class="more-work-btn">
             <a
-               class="work-btn fancy-link-project revealUp"
+               class="work-btn fancy-link-project"
                href="https://github.com/powrhouseofthecell?tab=repositories"
                >See more work</a
             >
@@ -209,7 +217,7 @@
       <!-- ! -->
 
       <footer id="contact" class="footer">
-         <div class="container revealUp">
+         <div class="container">
             <div class="row">
                <div class="footer-col">
                   <h4>Links</h4>
@@ -272,6 +280,10 @@
          </p>
       </footer>
 
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
       <script src="https://unpkg.com/easy-scroll"></script>
