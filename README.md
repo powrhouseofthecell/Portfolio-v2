@@ -4,9 +4,9 @@
 
 > Revision to the personal portfolio site (JS, CSS, GSAP)
 
-### 🏠 [Homepage](https://zuhaib.live/Portfolio-v2)
+### 🏠 [Homepage](https://zuhaib.live)
 
-### ✨ [Demo](https://zuhaib.live/Portfolio-v2)
+### ✨ [Demo](https://zuhaib.live)
 
 ## Author
 
