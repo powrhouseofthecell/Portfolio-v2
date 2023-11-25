@@ -4,15 +4,15 @@
 
 > Revision to the personal portfolio site (JS, CSS, GSAP)
 
-### 🏠 [Homepage](https://zuhaib.me)
+### 🏠 [Homepage](https://zuhaib.thedev.id)
 
-### ✨ [Demo](https://zuhaib.me)
+### ✨ [Demo](https://zuhaib.thedev.id)
 
 ## Author
 
 👤 **Zuhaib**
 
--  Website: [zuhaib.me](https://zuhaib.me)
+-  Website: [zuhaib.me](https://zuhaib.thedev.id)
 -  Github: [@powrhouseofthecell](https://github.com/powrhouseofthecell)
 
 ---
